@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Le disque d'or</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div id="MessageDeRedirection" class="RedirectionMessage">
+            <p><b>Vous avez été redirigé car vous êtes sur mobile</b><br/>
+            Voulez vous vraiment passer sur <a href="http://ledisquedor.fr">la version classique</a> ? 
+            </p>
+        </div>
+        <script>
+            if(window.location.search === "?redirect=true"){
+                document.getElementById("MessageDeRedirection").style.visibility = "visible";
+            }
+        </script>
+    </body>
+</html>

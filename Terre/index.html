@@ -1,0 +1,105 @@
+<!--
+	Welcome to the code !
+	I develop this earth with three.js which is a 3D Render
+	I tryed to comment the max I could !
+	For more understanding, look app.js and try the page url with ?developper=true at the end
+-->
+
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+	<head>
+		<title>Terre- le disque d'or</title>
+		<style>
+			body{
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				overflow: hidden;
+				font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+				color:black;
+			}
+			.developper {
+				position: absolute;
+				top:50%;
+				left:50%;
+				visibility: hidden;
+				background-color:white;
+				color:black;
+			}
+			#button{
+				position: absolute;
+				top:0px;
+				left:0px;
+			}
+			.individualbutton{
+				border-radius: 0px 0px 0px 0px;
+				-moz-border-radius: 0px 0px 0px 0px;
+				-webkit-border-radius: 0px 0px 0px 0px;
+				border: 5px solid #4374c1;
+				background-color: white;
+				padding: 2px;
+				margin: 0;
+				text-align: center;
+			}
+			a {
+				text-decoration: none;
+				color:black;
+			}
+			/* Fade-In Effect */
+			.visible
+            {
+                visibility: visible;
+               opacity: 1;
+               transition: opacity 0.5s linear;
+            }                
+           /* Fade-Out Effect */
+           .hidden
+           {
+            	visibility: hidden;
+				opacity: 0;
+        		transition: visibility 0s 0.5s, opacity 0.5s linear;
+            }
+			#MusicInfo{
+				width: 20%;
+				height: 100%;
+				background-color: grey;
+				color:black;
+				position:fixed;
+				right: 0;
+				bottom: 0;
+				font-size: 150%;
+				text-align: justify;
+				padding: 15px;
+			}
+			h1 {
+				text-align: center;
+				font-size: 150%;
+			}
+			@font-face {
+				font-family: 'Lomtrian';
+				src: url("Lomtrian.ttf");
+			}
+			.Lomtrian {
+				padding: 30px;
+				font-family: Lomtrian;
+				font-size: 150%;
+				line-height: 0.7;
+			}
+		</style>
+	</head>
+	<body>
+	<script src="three.js"></script>
+	<script src="OrbitControl.js"></script>
+	<div class="developper">
+		<a onclick='javascipt: LogPosition()'>LogPosition</a>
+		<a onclick="javascipt: LogClick()">LogClick</a>
+	</div>
+	<div id="MusicInfo" class="hidden">
+		<!--This is the info about music wich appears on the right-->
+	</div>
+	<div id="button"></div>
+	<script src="app.js"></script>
+	<script src="init.js"></script>
+	</body>
+</html>

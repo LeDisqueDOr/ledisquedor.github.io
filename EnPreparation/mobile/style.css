@@ -1,0 +1,6 @@
+.RedirectionMessage {
+    border: 3px solid black;
+    text-align: center;
+    padding: 3px;
+    visibility: hidden;
+}

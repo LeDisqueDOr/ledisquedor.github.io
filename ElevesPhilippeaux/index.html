@@ -1,0 +1,410 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Le disque d'or</title>
+    
+    <meta name="description" content="Le disque d'or est un spectacle proposé par le Conservatoire de la Ville du Mans, son Ensemble Cénoman et réalisé en partenariat avec l'école primaire Pierre Philippeaux." />
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133903712-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+  		gtag('config', 'UA-133903712-1');
+	</script>
+
+	<style>
+		.player{
+    		width: 500px;
+        	height: 500px;
+        	text-align: center;
+        	font-size: 80px;
+			background-color: blue;
+			color:white;
+			pointer-events: all;
+		}
+
+		#Overview{
+			position: fixed;
+			pointer-events: all;
+			bottom: 0;
+			left: 0;
+			font-size: 250%;
+		}
+		#VueGenerale0 { display: none }
+	</style>
+</head>
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+	<div id="VueGenerale0" class="step" data-x="0" data-y="0" data-z="5000"></div>
+    <div id="VueGenerale1" class="step" data-x="0" data-y="0" data-z="5000" data-autoplay="false">
+    </div>
+	<div id="1:1:1" onclick="OlPause(); Slide111Play()" class="step player" data-x="-1500" data-y="-1000" data-z="0">
+		<p>007</p>
+	</div>
+	<div id="1:1:2" onclick="OlPause(); Slide112Play()" class="step player" data-x="-500" data-y="-1000">
+		<p>Annabella</p>
+	</div>
+	<div id="1:1:3" onclick="OlPause(); Slide113Play()" class="step player" data-x="500" data-y="-1000">
+		<p>Maya l'abeille 1</p>
+	</div>
+	<div id="1:1:4" onclick="OlPause(); Slide114Play()" class="step player" data-x="1500" data-y="-1000">
+		<p>Maya l'abeille 2</p>
+	</div>
+	<div id="1:2:1" onclick="OlPause(); Slide121Play()" class="step player" data-x="-1500" data-y="0">
+		<p>Ocenta mamigos</p>
+	</div>
+	<div id="1:2:2" onclick="OlPause(); Slide122Play()" class="step player" data-x="-500" data-y="0">
+		<p>Dam Dam Dédé</p>
+	</div>
+	<div id="1:2:3" onclick="OlPause(); Slide123Play()" class="step player" data-x="500" data-y="0">
+		<p>Madame Espagnole</p>
+	</div>
+	<div id="1:2:4" onclick="OlPause(); Slide124Play()" class="step player" data-x="1500" data-y="0">
+		<p>Dam Dam Yes</p>
+	</div>
+	<div id="1:3:1" onclick="OlPause(); Slide131Play()" class="step player" data-x="-1500" data-y="1000">
+		<p>Pikachu</p>
+	</div>
+	<div id="1:3:2" onclick="OlPause(); Slide132Play()" class="step player" data-x="-500" data-y="1000">
+		<p>Ouna Chiniania</p>
+	</div>
+	<div id="1:3:3" onclick="OlPause(); Slide133Play()" class="step player" data-x="500" data-y="1000">
+		<p>Salamadisco</p>
+	</div>
+	<div id="1:3:4" onclick="OlPause(); Slide134Play()" class="step player" data-x="1500" data-y="1000">
+		<p>Si tu perds t'auras un gage</p>
+	</div>
+
+	<div id="VueGenerale2" class="step" data-x="0" data-y="0" data-z="-5000">
+    </div>
+	<div id="2:1:1" onclick="OlPause(); Slide211Play()" class="step player" data-x="-1500" data-y="-1000" data-z="-10000">
+		<p>Ethani na échi (Comores)</p>
+	</div>
+	<div id="2:1:2" onclick="OlPause(); Slide212Play()" class="step player" data-x="-500" data-y="-1000" data-z="-10000">
+		<p>Fait dodo</p>
+	</div>
+	<div id="2:1:3" onclick="OlPause(); Slide213Play()" class="step player" data-x="500" data-y="-1000" data-z="-10000">
+		<p>Frère Jacques (Norvège)</p>
+	</div>
+	<div id="2:1:4" onclick="OlPause(); Slide214Play()" class="step player" data-x="1500" data-y="-1000" data-z="-10000">
+		<p>Invention élève</p>
+	</div>
+	<div id="2:2:1" onclick="OlPause(); Slide221Play()" class="step player" data-x="-1500" data-y="0" data-z="-10000">
+		<p>Johnny Johnny (U.S.A.)</p>
+	</div>
+	<div id="2:2:2" onclick="OlPause(); Slide222Play()" class="step player" data-x="-500" data-y="0" data-z="-10000">
+		<p>Trois petits chats 1</p>
+	</div>
+	<div id="2:2:3" onclick="OlPause(); Slide223Play()" class="step player" data-x="500" data-y="0" data-z="-10000">
+		<p>Trois petits chats 2</p>
+	</div>
+	<div id="2:2:4" onclick="OlPause(); Slide224Play()" class="step player" data-x="1500" data-y="0" data-z="-10000">
+		<p>Madina (Tchétchénie)</p>
+	</div>
+	<div id="2:3:1" onclick="OlPause(); Slide231Play()" class="step player" data-x="-1500" data-y="1000" data-z="-10000">
+		<p>Pirouette Cacahouète</p>
+	</div>
+	<div id="2:3:2" onclick="OlPause(); Slide232Play()" class="step player" data-x="-500" data-y="1000" data-z="-10000">
+		<p>Pomme de reinette</p>
+	</div>
+	<div id="2:3:3" onclick="OlPause(); Slide233Play()" class="step player" data-x="500" data-y="1000" data-z="-10000">
+		<p>Une chanson douce</p>
+	</div>
+	<div id="2:3:4" onclick="OlPause(); Slide234Play()" class="step player" data-x="1500" data-y="1000" data-z="-10000">
+		<p>Une poule sur un mur</p>
+	</div>
+	<div id="RetourAccueil" class="step" data-x="0" data-y="0" data-z="-15000" data-rotate-x="180"><a href="http://ledisquedor.fr/#/Liens">Retour à l'accueil</a></div>
+
+
+</div>
+
+<div id="impress-toolbar"></div>
+
+<div class="hint">
+    <p>Utilisez la barre espace ou les flèches pour vous déplacer.<br>Cliquez sur une case pour écouter.</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Glisser à gauche ou à droite</p>";
+}
+</script>
+
+<a id="PlayPauseButton" onclick="PlayPause()">&#128266;</a>
+
+<a id="StopButton" onclick="OlStop()">◼</a>
+<div id="Overview">
+	<a onclick="api.goto(1);">Vue générale 1</a><br>
+	<a onclick="api.goto(14);">Vue générale 2</a><br>
+	<a href="http://ledisquedor.fr/#/Liens">Accueil</a>
+</div>
+
+<script src="../js/impress.js"></script>
+<script>
+	var api = impress()
+    api.init()
+	//All audio
+	Audio111 = new Audio("Musiques/1.mp3")
+	Audio112 = new Audio("Musiques/2.mp3")
+	Audio113 = new Audio("Musiques/3.mp3")
+	Audio114 = new Audio("Musiques/4.mp3")
+	Audio121 = new Audio("Musiques/5.mp3")
+	Audio122 = new Audio("Musiques/6.mp3")
+	Audio123 = new Audio("Musiques/7.mp3")
+	Audio124 = new Audio("Musiques/8.mp3")
+	Audio131 = new Audio("Musiques/9.mp3")
+	Audio132 = new Audio("Musiques/10.mp3")
+	Audio133 = new Audio("Musiques/11.mp3")
+	Audio134 = new Audio("Musiques/12.mp3")
+	Audio211 = new Audio("Musiques/13.mp3")
+	Audio212 = new Audio("Musiques/14.mp3")
+	Audio213 = new Audio("Musiques/15.mp3")
+	Audio214 = new Audio("Musiques/16.mp3")
+	Audio221 = new Audio("Musiques/17.mp3")
+	Audio222 = new Audio("Musiques/18.mp3")
+	Audio223 = new Audio("Musiques/19.mp3")
+	Audio224 = new Audio("Musiques/20.mp3")
+	Audio231 = new Audio("Musiques/21.mp3")
+	Audio232 = new Audio("Musiques/22.mp3")
+	Audio233 = new Audio("Musiques/23.mp3")
+	Audio234 = new Audio("Musiques/24.mp3")
+
+	//All element
+	Slide111 = document.getElementById('1:1:1')
+	Slide112 = document.getElementById('1:1:2')
+	Slide113 = document.getElementById('1:1:3')
+	Slide114 = document.getElementById('1:1:4')
+	Slide121 = document.getElementById('1:2:1')
+	Slide122 = document.getElementById('1:2:2')
+	Slide123 = document.getElementById('1:2:3')
+	Slide124 = document.getElementById('1:2:4')
+	Slide131 = document.getElementById('1:3:1')
+	Slide132 = document.getElementById('1:3:2')
+	Slide133 = document.getElementById('1:3:3')
+	Slide134 = document.getElementById('1:3:4')
+	Slide211 = document.getElementById('2:1:1')
+	Slide212 = document.getElementById('2:1:2')
+	Slide213 = document.getElementById('2:1:3')
+	Slide214 = document.getElementById('2:1:4')
+	Slide221 = document.getElementById('2:2:1')
+	Slide222 = document.getElementById('2:2:2')
+	Slide223 = document.getElementById('2:2:3')
+	Slide224 = document.getElementById('2:2:4')
+	Slide231 = document.getElementById('2:3:1')
+	Slide232 = document.getElementById('2:3:2')
+	Slide233 = document.getElementById('2:3:3')
+	Slide234 = document.getElementById('2:3:4')
+	
+
+	function OlPause(){
+		Slide111.style.background = "blue"
+		Slide112.style.background = "blue"
+		Slide113.style.background = "blue"
+		Slide114.style.background = "blue"
+		Slide121.style.background = "blue"
+		Slide122.style.background = "blue"
+		Slide123.style.background = "blue"
+		Slide124.style.background = "blue"
+		Slide131.style.background = "blue"
+		Slide132.style.background = "blue"
+		Slide133.style.background = "blue"
+		Slide134.style.background = "blue"
+		Slide211.style.background = "blue"
+		Slide212.style.background = "blue"
+		Slide213.style.background = "blue"
+		Slide214.style.background = "blue"
+		Slide221.style.background = "blue"
+		Slide222.style.background = "blue"
+		Slide223.style.background = "blue"
+		Slide224.style.background = "blue"
+		Slide231.style.background = "blue"
+		Slide232.style.background = "blue"
+		Slide233.style.background = "blue"
+		Slide234.style.background = "blue"
+		Audio111.pause()
+		Audio112.pause()
+		Audio113.pause()
+		Audio114.pause()
+		Audio121.pause()
+		Audio122.pause()
+		Audio123.pause()
+		Audio124.pause()
+		Audio131.pause()
+		Audio132.pause()
+		Audio133.pause()
+		Audio134.pause()
+		Audio211.pause()
+		Audio212.pause()
+		Audio213.pause()
+		Audio214.pause()
+		Audio221.pause()
+		Audio222.pause()
+		Audio223.pause()
+		Audio224.pause()
+		Audio231.pause()
+		Audio232.pause()
+		Audio233.pause()
+		Audio234.pause()
+	}
+	Slide111Play = ()=>{Slide111.style.background = "red"; Audio111.play()}
+	Slide112Play = ()=>{Slide112.style.background = "red"; Audio112.play()}
+	Slide113Play = ()=>{Slide113.style.background = "red"; Audio113.play()}
+	Slide114Play = ()=>{Slide114.style.background = "red"; Audio114.play()}
+	Slide121Play = ()=>{Slide121.style.background = "red"; Audio121.play()}
+	Slide122Play = ()=>{Slide122.style.background = "red"; Audio122.play()}
+	Slide123Play = ()=>{Slide123.style.background = "red"; Audio123.play()}
+	Slide124Play = ()=>{Slide124.style.background = "red"; Audio124.play()}
+	Slide131Play = ()=>{Slide131.style.background = "red"; Audio131.play()}
+	Slide132Play = ()=>{Slide132.style.background = "red"; Audio132.play()}
+	Slide133Play = ()=>{Slide133.style.background = "red"; Audio133.play()}
+	Slide134Play = ()=>{Slide134.style.background = "red"; Audio134.play()}
+	Slide211Play = ()=>{Slide211.style.background = "red"; Audio211.play()}
+	Slide212Play = ()=>{Slide212.style.background = "red"; Audio212.play()}
+	Slide213Play = ()=>{Slide213.style.background = "red"; Audio213.play()}
+	Slide214Play = ()=>{Slide214.style.background = "red"; Audio214.play()}
+	Slide221Play = ()=>{Slide221.style.background = "red"; Audio221.play()}
+	Slide222Play = ()=>{Slide222.style.background = "red"; Audio222.play()}
+	Slide223Play = ()=>{Slide223.style.background = "red"; Audio223.play()}
+	Slide224Play = ()=>{Slide224.style.background = "red"; Audio224.play()}
+	Slide231Play = ()=>{Slide231.style.background = "red"; Audio231.play()}
+	Slide232Play = ()=>{Slide232.style.background = "red"; Audio232.play()}
+	Slide233Play = ()=>{Slide233.style.background = "red"; Audio233.play()}
+	Slide234Play = ()=>{Slide234.style.background = "red"; Audio234.play()}
+	
+
+	MusiqueState = true;
+    function PlayPause(){
+        if(MusiqueState){
+            document.getElementById('PlayPauseButton').innerHTML = "&#128263;"
+            MusiqueState = false;
+            Audio111.muted = true
+			Audio112.muted = true
+			Audio113.muted = true
+			Audio114.muted = true
+			Audio121.muted = true
+			Audio122.muted = true
+			Audio123.muted = true
+			Audio124.muted = true
+			Audio131.muted = true
+			Audio132.muted = true
+			Audio133.muted = true
+			Audio134.muted = true
+            Audio211.muted = true
+			Audio212.muted = true
+			Audio213.muted = true
+			Audio214.muted = true
+			Audio221.muted = true
+			Audio222.muted = true
+			Audio223.muted = true
+			Audio224.muted = true
+			Audio231.muted = true
+			Audio232.muted = true
+			Audio233.muted = true
+			Audio234.muted = true
+        } else {
+            document.getElementById('PlayPauseButton').innerHTML = "&#128266;"
+            MusiqueState = true;
+			Audio111.muted = false
+			Audio112.muted = false
+			Audio113.muted = false
+			Audio114.muted = false
+			Audio121.muted = false
+			Audio122.muted = false
+			Audio123.muted = false
+			Audio124.muted = false
+			Audio131.muted = false
+			Audio132.muted = false
+			Audio133.muted = false
+			Audio134.muted = false
+			Audio211.muted = false
+			Audio212.muted = false
+			Audio213.muted = false
+			Audio214.muted = false
+			Audio221.muted = false
+			Audio222.muted = false
+			Audio223.muted = false
+			Audio224.muted = false
+			Audio231.muted = false
+			Audio232.muted = false
+			Audio233.muted = false
+			Audio234.muted = false
+        }
+    }
+
+	function OlStop(){
+        OlPause()
+		Audio111.currentTime = 0;
+		Audio112.currentTime = 0
+		Audio113.currentTime = 0;
+		Audio114.currentTime = 0
+		Audio121.currentTime = 0;
+		Audio122.currentTime = 0
+		Audio123.currentTime = 0;
+		Audio124.currentTime = 0
+		Audio131.currentTime = 0;
+		Audio132.currentTime = 0
+		Audio133.currentTime = 0;
+		Audio134.currentTime = 0
+		Audio211.currentTime = 0;
+		Audio212.currentTime = 0
+		Audio213.currentTime = 0;
+		Audio214.currentTime = 0
+		Audio221.currentTime = 0;
+		Audio222.currentTime = 0
+		Audio223.currentTime = 0;
+		Audio224.currentTime = 0
+		Audio231.currentTime = 0;
+		Audio232.currentTime = 0
+		Audio233.currentTime = 0;
+		Audio234.currentTime = 0
+
+	}
+
+	Audio111.addEventListener("ended", () => {Slide112Play(); api.goto(0)})
+	Audio112.addEventListener("ended", () => {Slide113Play(); api.goto(0)})
+	Audio113.addEventListener("ended", () => {Slide114Play(); api.goto(0)})
+	Audio114.addEventListener("ended", () => {Slide121Play(); api.goto(0)})
+	Audio121.addEventListener("ended", () => {Slide122Play(); api.goto(0)})
+	Audio122.addEventListener("ended", () => {Slide123Play(); api.goto(0)})
+	Audio123.addEventListener("ended", () => {Slide124Play(); api.goto(0)})
+	Audio124.addEventListener("ended", () => {Slide131Play(); api.goto(0)})
+	Audio131.addEventListener("ended", () => {Slide132Play(); api.goto(0)})
+	Audio132.addEventListener("ended", () => {Slide133Play(); api.goto(0)})
+	Audio133.addEventListener("ended", () => {Slide134Play(); api.goto(0)})
+	Audio134.addEventListener("ended", () => {Slide211Play(); api.goto(14)})
+	Audio211.addEventListener("ended", () => {Slide212Play(); api.goto(14)})
+	Audio212.addEventListener("ended", () => {Slide213Play(); api.goto(14)})
+	Audio213.addEventListener("ended", () => {Slide214Play(); api.goto(14)})
+	Audio214.addEventListener("ended", () => {Slide221Play(); api.goto(14)})
+	Audio221.addEventListener("ended", () => {Slide222Play(); api.goto(14)})
+	Audio222.addEventListener("ended", () => {Slide223Play(); api.goto(14)})
+	Audio223.addEventListener("ended", () => {Slide224Play(); api.goto(14)})
+	Audio224.addEventListener("ended", () => {Slide231Play(); api.goto(14)})
+	Audio231.addEventListener("ended", () => {Slide232Play(); api.goto(14)})
+	Audio232.addEventListener("ended", () => {Slide233Play(); api.goto(14)})
+	Audio233.addEventListener("ended", () => {Slide234Play(); api.goto(14)})
+	Audio234.addEventListener("ended", () => {api.goto(0); OlStop()})
+</script>
+
+
+
+</body>
+</html>
+

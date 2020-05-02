@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: lavender;
+    color:black;
+}
+
+.fallback-message {
+    display: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: darkgrey;
+}
+
+.slide {
+    display: block;
+    text-align: center;
+
+    width: 900px;
+    height: 700px;
+    padding: 40px 60px;
+
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -1px;
+}
+
+
+#Intro {
+    background-color: lavender;
+}
+#IntroBis {
+    background-color: lavender;
+}
+
+a {
+    text-decoration: underline; 
+    color:black;
+}
+
+a:hover{
+    -webkit-transition-duration: 0.1s; /* Safari */
+    transition-duration: 0.1s;
+    color:blue;
+}
+
+.button {
+    border: 1px solid black;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+    padding: 2px;
+    cursor: pointer;
+    opacity: 0.2;
+}
+.button:hover{
+    background-color: black;
+    color: lavender;
+    opacity: 1;
+}
